@@ -16,4 +16,4 @@ numeri_casuali = genera_lista_numeri(10, 1, 100)
 print("Lista di numeri casuali:", numeri_casuali)
 print("Il codice generato è:", codice_generato)
 
-//sto lavorando in parallelo
+//sto lavorando in parallelo di nuovo
