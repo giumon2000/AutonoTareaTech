@@ -20,3 +20,10 @@ Añade notificaciones para los profesores cuando los alumnos hayan completado l
   - @giumon2000
 
 Añade la posibilidad de subir fotos y vídeos con comentarios.
+
+### Tarea 3: Añadir un test automático 
+- **Responsabile:** @giumon2000
+- **Membri del Team:**
+  - @FrancescaPalazzetti
+
+ Añadir un test automático para verificar la correcta visualización de la agenda semanal.
