@@ -6,11 +6,14 @@ def genera_codice():
     codice = ''.join(random.choice(caratteri) for i in range(lunghezza_codice))
     return codice
 
-codice_generato = genera_codice()
-print("Il codice generato è:", codice_generato)
-
 def genera_lista_numeri(n, minimo, massimo):
     return [random.randint(minimo, massimo) for _ in range(n)]
 
-numeri_casuali = genera_lista_numeri(10, 1, 100)
+codice_generato = genera_codice() #codice generato
+numeri_casuali = genera_lista_numeri(10, 1, 100) #numeri casuali
+
+
 print("Lista di numeri casuali:", numeri_casuali)
+print("Il codice generato è:", codice_generato)
+
+//sto lavorando in parallelo di nuovo
