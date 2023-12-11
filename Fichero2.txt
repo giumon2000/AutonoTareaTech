@@ -14,4 +14,4 @@ def genera_lista_numeri(n, minimo, massimo):
     return [random.randint(minimo, massimo) for _ in range(n)]
 
 numeri_casuali = genera_lista_numeri(10, 1, 100)
-print("Lista di numeri casuali:", numeri_casuali)
+
