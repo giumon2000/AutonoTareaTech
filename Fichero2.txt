@@ -1,0 +1,16 @@
+import random
+
+def genera_codice():
+    caratteri = 'abcdefghijklmnopqrstuvwxyz0123456789'
+    lunghezza_codice = 8
+    codice = ''.join(random.choice(caratteri) for i in range(lunghezza_codice))
+    return codice
+
+codice_generato = genera_codice()
+print("Il codice generato è:", codice_generato)
+
+def genera_lista_numeri(n, minimo, massimo):
+    return [random.randint(minimo, massimo) for _ in range(n)]
+
+numeri_casuali = genera_lista_numeri(10, 1, 100)
+print("Lista di numeri casuali:", numeri_casuali)
