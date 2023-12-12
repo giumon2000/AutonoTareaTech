@@ -5,4 +5,4 @@ def genera_codice():
     lunghezza_codice = 8
     codice = ''.join(random.choice(caratteri) for i in range(lunghezza_codice))
     return codice
-
+#genera codice random
