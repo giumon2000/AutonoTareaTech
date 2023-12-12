@@ -6,4 +6,4 @@ def genera_codice():
     codice = ''.join(random.choice(caratteri) for i in range(lunghezza_codice))
     return codice
 #genera codice random
-//cambiamenti
+//cambiamenti2
