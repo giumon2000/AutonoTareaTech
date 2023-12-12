@@ -15,5 +15,5 @@ def genera_lista_numeri(n, minimo, massimo):
 
 numeri_casuali = genera_lista_numeri(10, 1, 100)
 
-//changes for JIRA
+//changes for JIRA2
 
